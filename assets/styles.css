@@ -242,6 +242,7 @@ legend,
   padding: 14px;
   border: 1px solid var(--line);
   min-width: 0;
+  overflow: hidden;
 }
 
 .date-heading {
@@ -437,6 +438,10 @@ legend,
   letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: normal;
+}
+
+.badge:empty {
+  display: none;
 }
 
 .card h3 {
@@ -734,6 +739,10 @@ body[data-route="scheduled"] .toolbar {
     padding-top: 42px;
   }
 
+  .date-panel {
+    overflow: hidden;
+  }
+
   .date-inputs,
   .form-row,
   .segmented,
@@ -747,6 +756,7 @@ body[data-route="scheduled"] .toolbar {
 
   .card {
     padding: 22px;
+    overflow: hidden;
   }
 
   .card-top {
@@ -770,5 +780,9 @@ body[data-route="scheduled"] .toolbar {
   .card-action {
     width: 100%;
     text-align: center;
+  }
+
+  .quick-dates {
+    overflow: hidden;
   }
 }

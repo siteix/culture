@@ -113,13 +113,14 @@ function renderCard(item) {
     ? `${formatDate(item.date)} - ${formatDate(item.endDate)}`
     : formatDate(item.date);
 
-  const location = item.place && item.place !== "Online" ? item.place : "Online";
+  const location = item.place && item.place !== "Online" && item.place !== "online" ? item.place : "Online";
+  const badge = item.category ? `<span class="badge">${escapeHtml(item.category)}</span>` : "";
 
   return `
     <article class="card">
       <div class="card-top">
         <span class="source">${escapeHtml(item.source)}</span>
-        <span class="badge">${escapeHtml(item.category)}</span>
+        ${badge}
       </div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.description)}</p>
@@ -168,7 +169,7 @@ function renderContent() {
   els.toolbar.classList.toggle("has-city", needsCity);
 
   const filtered = getFilteredItems();
-  els.resultMeta.textContent = `${filtered.length} найдено`;
+  els.resultMeta.textContent = "";
 
   if (!filtered.length) {
     els.grid.innerHTML = `<div class="empty-state">По текущим фильтрам ничего не найдено. Попробуйте расширить период, город или очистить поиск.</div>`;
