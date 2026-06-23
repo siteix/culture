@@ -1,0 +1,216 @@
+{
+  "section": "calls",
+  "title": "Конкурсы, open calls и возможности",
+  "description": "Российские и международные конкурсы, open calls, резиденции, гранты и awards в области моды, дизайна и искусства.",
+  "updatedAt": "2026-06-22T10:00:00+00:00",
+  "sources": [
+    {
+      "name": "Design Mate",
+      "url": "https://design-mate.ru",
+      "category": "Design / Architecture"
+    },
+    {
+      "name": "ART Узел",
+      "url": "https://artuzel.com",
+      "category": "Open Calls / Art / Residencies"
+    },
+    {
+      "name": "e-flux",
+      "url": "https://www.e-flux.com",
+      "category": "Contemporary Art"
+    },
+    {
+      "name": "ArtConnect",
+      "url": "https://artconnect.com",
+      "category": "Open Calls / Residencies / Grants"
+    },
+    {
+      "name": "Артгид",
+      "url": "https://artguide.com",
+      "category": "Art / Open Calls"
+    },
+    {
+      "name": "Creative Applications",
+      "url": "https://www.creativeapplications.net",
+      "category": "Art / Technology"
+    }
+  ],
+  "items": [
+    {
+      "id": "russia-001",
+      "title": "Всероссийский конкурс молодых дизайнеров «БОЛЬШАЯ ПРИЗМА 2026»",
+      "description": "Ежегодный конкурс для молодых дизайнеров интерьеров и предметной среды. Призовой фонд — 1,5 млн рублей и стажировка в ведущих дизайн-студиях.",
+      "source": "Design Mate",
+      "category": "Design / Competition",
+      "region": "russia",
+      "deadline": "2026-07-15",
+      "url": "https://design-mate.ru/contest/bolshaya-prizma-2026",
+      "tags": ["конкурс", "интерьер", "молодые дизайнеры"]
+    },
+    {
+      "id": "russia-002",
+      "title": "Open call: Арт-резиденция «База» в Калининграде",
+      "description": "Арт-резиденция «База» приглашает художников на двухнедельную программу в Калининграде. Тема — «Море и память». Проезд и проживание оплачиваются.",
+      "source": "ART Узел",
+      "category": "Art / Residency",
+      "region": "russia",
+      "deadline": "2026-07-01",
+      "url": "https://artuzel.com/residency/baza-kaliningrad-2026",
+      "tags": ["резиденция", "Калининград", "арт"]
+    },
+    {
+      "id": "russia-003",
+      "title": "Конкурс иллюстраций «Городские знаки»",
+      "description": "Конкурс городских иллюстраций для художников и графических дизайнеров. Лучшие работы будут напечатаны на билбордах в 10 городах России.",
+      "source": "Design Mate",
+      "category": "Design / Illustration",
+      "region": "russia",
+      "deadline": "2026-06-30",
+      "url": "https://design-mate.ru/contest/city-signs-illustration-2026",
+      "tags": ["иллюстрация", "город", "билборды"]
+    },
+    {
+      "id": "russia-004",
+      "title": "Грант на развитие contemporary art проектов от фонда V-A-C",
+      "description": "Фонд V-A-C объявляет прием заявок на гранты для развития проектов в области современного искусства. Максимальная сумма гранта — 3 млн рублей.",
+      "source": "Артгид",
+      "category": "Art / Grant",
+      "region": "russia",
+      "deadline": "2026-07-20",
+      "url": "https://artguide.com/grants/vac-foundation-grants-2026",
+      "tags": ["грант", "V-A-C", "современное искусство"]
+    },
+    {
+      "id": "russia-005",
+      "title": "Конкурс молодых фотографов «Новая волна фотографии»",
+      "description": "Ежегодный конкурс молодых фотографов. Победители получат возможность выставить работы в ГТРИК и получить контракт с фотостудией.",
+      "source": "Артгид",
+      "category": "Art / Photography",
+      "region": "russia",
+      "deadline": "2026-07-10",
+      "url": "https://artguide.com/competition/new-wave-photography-2026",
+      "tags": ["фотография", "конкурс", "молодые авторы"]
+    },
+    {
+      "id": "russia-006",
+      "title": "Open call: Участие в Russian Design Week 2026",
+      "description": "Прием заявок на участие в Russian Design Week 2026. Мероприятие пройдет в Москве в октябре. Приглашаются дизайнеры интерьеров, архитекторы и предметные дизайнеры.",
+      "source": "Design Mate",
+      "category": "Design / Event",
+      "region": "russia",
+      "deadline": "2026-08-01",
+      "url": "https://design-mate.ru/events/russian-design-week-2026",
+      "tags": ["неделя дизайна", "Москва", "участие"]
+    },
+    {
+      "id": "world-001",
+      "title": "Innovate Grant: $1,800 гранты для художников и фотографов",
+      "description": "Innovate Grant предлагает гранты в размере $1,800 визуальному художнику и фотографу каждые три месяца. Принимаются заявки со всего мира.",
+      "source": "ArtConnect",
+      "category": "Art / Grant",
+      "region": "world",
+      "deadline": "2026-06-30",
+      "url": "https://artconnect.com/opportunity/innovate-grant-spring-2026",
+      "tags": ["грант", "фотография", "визуальное искусство"]
+    },
+    {
+      "id": "world-002",
+      "title": "Residency at Joan Mitchell Center, New Orleans",
+      "description": "Joan Mitchell Center предлагает 6- или 10-недельные резиденции для художников. Программа включает студию, стипендию и возможность взаимодействия с местным арт-сообществом.",
+      "source": "ArtConnect",
+      "category": "Art / Residency",
+      "region": "world",
+      "deadline": "2026-07-15",
+      "url": "https://artconnect.com/opportunity/joan-mitchell-center-residency",
+      "tags": ["резиденция", "Нью-Орлеан", "стипендия"]
+    },
+    {
+      "id": "world-003",
+      "title": "Elizabeth Greenshields Artist Grant",
+      "description": "Грант для художников, работающих в традиционных техниках (масло, акварель, графика). Сумма — 15 000 канадских долларов. Заявки принимаются со всего мира.",
+      "source": "ArtConnect",
+      "category": "Art / Grant",
+      "region": "world",
+      "deadline": "2026-07-01",
+      "url": "https://artconnect.com/opportunity/elizabeth-greenshields-grant",
+      "tags": ["грант", "традиционные техники", "Канада"]
+    },
+    {
+      "id": "world-004",
+      "title": "Biennale Matter of Art 2026: Necessary Wishes",
+      "description": "Биеннале современного искусства Matter of Art 2026 ищет участников. Тема — «Необходимые пожелания». Программа включает выставки, перформансы и лекции.",
+      "source": "e-flux",
+      "category": "Contemporary Art / Biennale",
+      "region": "world",
+      "deadline": "2026-07-20",
+      "url": "https://www.e-flux.com/announcements/6787321/biennale-matter-of-art-2026necessary-wishes",
+      "tags": ["биеннале", "современное искусство", "перформанс"]
+    },
+    {
+      "id": "world-005",
+      "title": "Residency in Electroacoustic + Electronic Music",
+      "description": "Art Zoyd Studios приглашает композиторов и музыкантов на 1-2 недельные резиденции в области электроакустической и электронной музыки.",
+      "source": "ArtConnect",
+      "category": "Art / Music / Residency",
+      "region": "world",
+      "deadline": "2026-08-01",
+      "url": "https://artconnect.com/opportunity/art-zoyd-electroacoustic-residency",
+      "tags": ["музыка", "резиденция", "электроакустика"]
+    },
+    {
+      "id": "world-006",
+      "title": "Seed Money Grant Program 2026",
+      "description": "New York Women Composers предлагает гранты по $1,000 для концертных проектов, включающих произведения композиторов-участниц организации.",
+      "source": "ArtConnect",
+      "category": "Art / Music / Grant",
+      "region": "world",
+      "deadline": "2026-07-15",
+      "url": "https://artconnect.com/opportunity/nywc-seed-money-grant-2026",
+      "tags": ["грант", "музыка", "композиторы"]
+    },
+    {
+      "id": "world-007",
+      "title": "Digital Artwork Display 2026 — City of Pickering",
+      "description": "Город Пикеринг приглашает художников создать цифровые арт-работы для отображения в рекреационном комплексе. Темы: безопасное сообщество, инновации, экология.",
+      "source": "ArtConnect",
+      "category": "Art / Digital",
+      "region": "world",
+      "deadline": "2026-07-10",
+      "url": "https://artconnect.com/opportunity/pickering-digital-artwork-2026",
+      "tags": ["цифровое искусство", "публичное пространство", "Канада"]
+    },
+    {
+      "id": "world-008",
+      "title": "Fosbury Architecture and Claire Fontaine: Tabula Plena — open call",
+      "description": "GAMeC (Galleria d'Arte Moderna e Contemporanea di Bergamo) приглашает участников для совместного создания инсталляции в рамках выставки Tabula Plena.",
+      "source": "e-flux",
+      "category": "Contemporary Art / Installation",
+      "region": "world",
+      "deadline": "2026-06-28",
+      "url": "https://www.e-flux.com/announcements/6787463/fosbury-architecture-and-claire-fontainetabula-plena",
+      "tags": ["инсталляция", "Бергамо", "open call"]
+    },
+    {
+      "id": "world-009",
+      "title": "Jon Rafman: Main Stream Media — open call для участия в выставке",
+      "description": "Kunstsammlung Nordrhein-Westfalen приглашает художников для участия в масштабной выставке Jon Rafman в Германии.",
+      "source": "e-flux",
+      "category": "Contemporary Art / Exhibition",
+      "region": "world",
+      "deadline": "2026-07-05",
+      "url": "https://www.e-flux.com/announcements/6787451/jon-rafmanmain-stream-media",
+      "tags": ["выставка", "Германия", "видео-арт"]
+    },
+    {
+      "id": "world-010",
+      "title": "Climate Biennial: Rehearsing the Unexpected — open call",
+      "description": "Первый Climate Biennial ищет проекты, исследующие связь искусства, индустрии и территории в контексте климатических изменений.",
+      "source": "e-flux",
+      "category": "Contemporary Art / Climate",
+      "region": "world",
+      "deadline": "2026-07-25",
+      "url": "https://www.e-flux.com/announcements/6787457/inaugural-edition-rehearsing-the-unexpected",
+      "tags": ["климат", "биеннале", "экология"]
+    }
+  ]
+}

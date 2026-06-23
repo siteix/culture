@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Культурная лента</title>
+    <meta
+      name="description"
+      content="Культурная лента: поиск мировых новостей, локальных новостей и конкурсов в моде, искусстве и дизайне."
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#world" aria-label="Культурная лента">
+        <span>Культурная</span><strong>лента</strong>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#world" data-route="world">Мировые новости</a>
+        <a href="#events" data-route="events">Локальные новости</a>
+        <a href="#calls" data-route="calls">Конкурсы</a>
+        <a href="#scheduled" data-route="scheduled">Подписка</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow" id="section-label">Мировые новости</p>
+          <h1 id="page-title">Культурная лента</h1>
+          <p class="lead" id="page-description">
+            Единый поиск по моде, искусству, дизайну и культурным событиям.
+          </p>
+        </div>
+      </section>
+
+      <section class="toolbar" id="content-toolbar" aria-label="Фильтры">
+        <label class="search-field">
+          <span>Поиск</span>
+          <input id="search-input" type="search" placeholder="Введите тему, место или источник">
+        </label>
+        <label class="select-field" id="city-field">
+          <span>Город</span>
+          <select id="city-select">
+            <option value="">Все города</option>
+          </select>
+        </label>
+        <div class="date-panel">
+          <div class="date-heading">
+            <span>Период</span>
+            <button id="reset-dates" type="button">Сбросить</button>
+          </div>
+          <div class="date-inputs">
+            <label>
+              <span>С</span>
+              <input id="date-from" type="date">
+            </label>
+            <label>
+              <span>По</span>
+              <input id="date-to" type="date">
+            </label>
+          </div>
+          <div class="quick-dates" aria-label="Быстрый выбор периода">
+            <button type="button" data-range="7">7 дней</button>
+            <button type="button" data-range="month">Месяц</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="content-section" aria-live="polite">
+        <div class="section-head">
+          <h2 id="content-heading">Материалы</h2>
+          <span id="result-meta">0 найдено</span>
+        </div>
+        <div class="cards-grid" id="cards-grid"></div>
+      </section>
+
+      <section class="subscription-section" id="scheduled-section" hidden>
+        <div class="subscription-grid">
+          <form class="subscription-form" id="subscription-form">
+            <label>
+              <span>Электронная почта</span>
+              <input name="email" type="email" placeholder="ваша@почта.ru" required>
+            </label>
+
+            <fieldset>
+              <legend>Периодичность</legend>
+              <div class="segmented" role="radiogroup" aria-label="Периодичность рассылки">
+                <label>
+                  <input type="radio" name="frequency" value="daily" checked>
+                  <span>Ежедневно</span>
+                </label>
+                <label>
+                  <input type="radio" name="frequency" value="weekly">
+                  <span>Еженедельно</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-row">
+              <label>
+                <span>Время отправки</span>
+                <input name="time" type="time" value="09:00" required>
+              </label>
+              <label id="weekday-wrap">
+                <span>День недели</span>
+                <select name="weekday">
+                  <option value="monday">Понедельник</option>
+                  <option value="tuesday">Вторник</option>
+                  <option value="wednesday">Среда</option>
+                  <option value="thursday">Четверг</option>
+                  <option value="friday">Пятница</option>
+                  <option value="saturday">Суббота</option>
+                  <option value="sunday">Воскресенье</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset>
+              <legend>Разделы сводки</legend>
+              <div class="checks">
+                <label><input type="checkbox" name="sections" value="world" checked> Мировые новости</label>
+                <label><input type="checkbox" name="sections" value="events" checked> Локальные новости</label>
+                <label><input type="checkbox" name="sections" value="calls" checked> Конкурсы</label>
+              </div>
+            </fieldset>
+
+            <button class="primary-action" type="submit">Подписаться на сводку</button>
+            <p class="form-message" id="form-message" role="status"></p>
+          </form>
+
+          <aside class="subscription-copy">
+            <article>
+              <h2>Что внутри сводки</h2>
+              <p>
+                Подборка ключевых новостей разделов «Мировые новости», «Локальные новости» и «Конкурсы»
+                без воды, с датами, местами и ссылками на первоисточники.
+              </p>
+            </article>
+            <article>
+              <h2>Гибкое расписание</h2>
+              <p>
+                Ежедневно к утреннему кофе или раз в неделю по выбранному дню.
+              </p>
+            </article>
+            <article>
+              <h2>Готово к реальному серверу</h2>
+              <p>
+                Форма отправляет данные через интерфейс, сохраняет подписку и передает настройки в
+                модуль расписания, куда можно подключить почтовую рассылку, очереди и парсеры источников.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Культурная лента</span>
+      <span>Мода · искусство · дизайн · ИИ</span>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

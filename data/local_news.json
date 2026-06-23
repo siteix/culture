@@ -1,0 +1,238 @@
+{
+  "section": "events",
+  "title": "Российские новости моды, дизайна и искусства",
+  "description": "Новости российской fashion-индустрии, арт-среды, выставок, музеев, галерей и культурных проектов.",
+  "updatedAt": "2026-06-22T10:00:00+00:00",
+  "sources": [
+    {
+      "name": "BURO.",
+      "url": "https://www.buro247.ru",
+      "category": "Fashion / Culture"
+    },
+    {
+      "name": "The Blueprint",
+      "url": "https://theblueprint.ru",
+      "category": "Fashion / Art / Culture"
+    },
+    {
+      "name": "Артгид",
+      "url": "https://artguide.com",
+      "category": "Art / Exhibitions"
+    },
+    {
+      "name": "Точка GUM",
+      "url": "https://www.gum.ru",
+      "category": "Fashion / Retail"
+    },
+    {
+      "name": "Коммерсантъ / Культура",
+      "url": "https://www.kommersant.ru/rubric/4",
+      "category": "Culture / Art"
+    },
+    {
+      "name": "РБК Культура",
+      "url": "https://www.rbc.ru/culture",
+      "category": "Culture / Art"
+    }
+  ],
+  "items": [
+    {
+      "id": "buro-001",
+      "title": "Московская неделя моды осень-зима 2026/2027: главные показы и тренды",
+      "description": "Московская неделя моды прошла в формате гибридного мероприятия. Среди участников — UMA, VICTORIAMOSS, DEVOA, Alinka и другие локальные бренды.",
+      "source": "BURO.",
+      "category": "Fashion / Events",
+      "city": "Москва",
+      "date": "2026-06-21",
+      "url": "https://www.buro247.ru/fashion/news/moscow-fashion-week-aw-2026-2027",
+      "tags": ["Москва", "неделя моды", "показы"]
+    },
+    {
+      "id": "buro-002",
+      "title": "Топ-10 российских брендов, которых стоит знать в 2026 году",
+      "description": "BURO. составило список самых перспективных российских fashion-брендов, покоряющих международный рынок: от streetwear до haute couture.",
+      "source": "BURO.",
+      "category": "Fashion / Trends",
+      "city": "Россия",
+      "date": "2026-06-18",
+      "url": "https://www.buro247.ru/fashion/things/top-10-russian-brands-2026",
+      "tags": ["российские бренды", "тренды", "обзор"]
+    },
+    {
+      "id": "buro-003",
+      "title": "Выставка «Русский авангард: от Малевича до Кандинского» в Третьяковке",
+      "description": "Третьяковская галерея открыла масштабную выставку русского авангарда с работами из частных коллекций, которые ранее не экспонировались в России.",
+      "source": "BURO.",
+      "category": "Art / Exhibition",
+      "city": "Москва",
+      "date": "2026-06-15",
+      "url": "https://www.buro247.ru/culture/exhibitions/russian-avant-garde-tretyakovka-2026",
+      "tags": ["Третьяковка", "авангард", "выставка"]
+    },
+    {
+      "id": "blueprint-001",
+      "title": "Локальные бренды представили капсульные коллекции для IKEA",
+      "description": "Российские дизайнеры создали эксклюзивные капсульные коллекции мебели и декора дляIKEA. Среди участников — Студия «Круг», Just Look и Formafantasma.",
+      "source": "The Blueprint",
+      "category": "Design / Collaboration",
+      "city": "Москва",
+      "date": "2026-06-20",
+      "url": "https://theblueprint.ru/news/ikea-russian-designers-capsule",
+      "tags": ["IKEA", "дизайнеры", "коллаборация"]
+    },
+    {
+      "id": "blueprint-002",
+      "title": "Пермская ярмарка современного искусства PERMART объявляет участников",
+      "description": "Организаторы PERMART объявили список участников ежегодной ярмарки современного искусства. Мероприятие пройдет в Перми в августе 2026 года.",
+      "source": "The Blueprint",
+      "category": "Art / Fair",
+      "city": "Пермь",
+      "date": "2026-06-17",
+      "url": "https://theblueprint.ru/news/permart-2026-participants",
+      "tags": ["PERMART", "ярмарка", "Пермь"]
+    },
+    {
+      "id": "blueprint-003",
+      "title": "Пушкинский музей открывает новый отдел contemporary art",
+      "description": "Государственный музей изобразительных искусств имени А.С. Пушкина открывает новый отдел современного искусства в здании на Волхонке.",
+      "source": "The Blueprint",
+      "category": "Art / Museum",
+      "city": "Москва",
+      "date": "2026-06-14",
+      "url": "https://theblueprint.ru/news/pushkin-museum-contemporary-art",
+      "tags": ["Пушкинский музей", "contemporary", "открытие"]
+    },
+    {
+      "id": "artguide-001",
+      "title": "Государственный Эрмитаж запускает цифровой архив русского искусства",
+      "description": "Эрмитаж начал масштабный проект по оцифровке фондов русского искусства. К 2028 году в открытом доступе появятся более 500 000 работ.",
+      "source": "Артгид",
+      "category": "Art / Digital",
+      "city": "Санкт-Петербург",
+      "date": "2026-06-19",
+      "url": "https://artguide.com/news/hermitage-digital-archive-russian-art",
+      "tags": ["Эрмитаж", "цифровизация", "архив"]
+    },
+    {
+      "id": "artguide-002",
+      "title": "Самарский музей современного искусства открывает новое пространство",
+      "description": "Самарский музей современного искусства открывает новую площадку в бывшей фабрике. Пространство будет специализироваться на инсталляциях и перформансах.",
+      "source": "Артгид",
+      "category": "Art / Museum",
+      "city": "Самара",
+      "date": "2026-06-16",
+      "url": "https://artguide.com/news/samara-museum-new-space",
+      "tags": ["Самара", "музей", "инсталляции"]
+    },
+    {
+      "id": "artguide-003",
+      "title": "Фестиваль «Культурный код» в Екатеринбурге: программа 2026",
+      "description": "Объявлена программа фестиваля «Культурный код» в Екатеринбурге. В этом году тема — «Город и природа». Мероприятие пройдет в сентябре.",
+      "source": "Артгид",
+      "category": "Culture / Festival",
+      "city": "Екатеринбург",
+      "date": "2026-06-12",
+      "url": "https://artguide.com/news/cultural-code-ekaterinburg-2026",
+      "tags": ["фестиваль", "Екатеринбург", "программа"]
+    },
+    {
+      "id": "gum-001",
+      "title": "GUM запускает программу поддержки молодых российских дизайнеров",
+      "description": "Торговый дом ГУМ объявил о запуске программы поддержки молодых российских дизайнеров. Победители получат возможность представить свои коллекции в GUM.",
+      "source": "Точка GUM",
+      "category": "Fashion / Program",
+      "city": "Москва",
+      "date": "2026-06-21",
+      "url": "https://www.gum.ru/press/gum-young-designers-program-2026",
+      "tags": ["GUM", "молодые дизайнеры", "программа"]
+    },
+    {
+      "id": "gum-002",
+      "title": "Выставка «Мода и космос: от советских космонавтов до современных технологий»",
+      "description": "В GUM открыта выставка, посвящная влиянию космоса на моду — от скафандров космонавтов до вдохновленных космосом коллекций дизайнера Iris van Herpen.",
+      "source": "Точка GUM",
+      "category": "Fashion / Exhibition",
+      "city": "Москва",
+      "date": "2026-06-14",
+      "url": "https://www.gum.ru/exhibitions/fashion-cosmos-2026",
+      "tags": ["GUM", "космос", "мода"]
+    },
+    {
+      "id": "kommersant-001",
+      "title": "Новый арт-центр «Сахарово» открылся в Подмосковье",
+      "description": "В Подмосковье открылся новый арт-центр «Сахарово» — площадка для современного искусства и образования. Пространство занимает 5 000 м².",
+      "source": "Коммерсантъ / Культура",
+      "category": "Art / Space",
+      "city": "Московская область",
+      "date": "2026-06-18",
+      "url": "https://www.kommersant.ru/doc/sakharovo-art-center",
+      "tags": ["арт-центр", "Подмосковье", "открытие"]
+    },
+    {
+      "id": "kommersant-002",
+      "title": "Российские дизайнеры покоряют Milan Furniture Fair 2026",
+      "description": "На выставке Milan Furniture Fair 2026 были представлены работы 15 российских дизайнеров. Коллекции получили высокие оценки международных экспертов.",
+      "source": "Коммерсантъ / Культура",
+      "category": "Design / International",
+      "city": "Россия",
+      "date": "2026-06-10",
+      "url": "https://www.kommersant.ru/doc/russian-designers-milan-furniture-fair",
+      "tags": ["Милан", "российские дизайнеры", "мебель"]
+    },
+    {
+      "id": "rbc-001",
+      "title": "Казанский kremlin музеи обновили экспозиции с использованием VR",
+      "description": "Музеи Казанского kremla внедрили VR-технологии для интерактивных экскурсий. Посетители могут «погрузиться» в историю XV–XVII веков.",
+      "source": "РБК Культура",
+      "category": "Culture / Technology",
+      "city": "Казань",
+      "date": "2026-06-16",
+      "url": "https://www.rbc.ru/culture/kazan-kremlin-vr-museums",
+      "tags": ["Казань", "VR", "музеи"]
+    },
+    {
+      "id": "rbc-002",
+      "title": "Екатеринбургский музей изобразительных искусств готовит выставку норвежского искусства",
+      "description": "Екатеринбургский музей изобразительных искусств совместно с музеем Мунком в Осло готовит выставку «Эдвард Мунк и норвежский модернизм».",
+      "source": "РБК Культура",
+      "category": "Art / Exhibition",
+      "city": "Екатеринбург",
+      "date": "2026-06-11",
+      "url": "https://www.rbc.ru/culture/munch-norwegian-art-ekaterinburg",
+      "tags": ["Мунк", "Норвегия", "выставка"]
+    },
+    {
+      "id": "blueprint-004",
+      "title": "Российские fashion-стартапы привлекли инвестиции от venture-фондов",
+      "description": "Аналитики сообщают о росте инвестиций в российские fashion-стартапы за первый квартал 2026 года. Лидеры — технологические платформы и DTC-бренды.",
+      "source": "The Blueprint",
+      "category": "Fashion / Business",
+      "city": "Россия",
+      "date": "2026-06-09",
+      "url": "https://theblueprint.ru/news/russian-fashion-startups-investment",
+      "tags": ["инвестиции", "стартапы", "DTC"]
+    },
+    {
+      "id": "buro-004",
+      "title": "Street style: как одеваются в Москве летом 2026",
+      "description": "Фотообзор street style москвичей в июне 2026. Ключевые тренды — oversize, яркие цвета, локальные бренды и винтаж.",
+      "source": "BURO.",
+      "category": "Fashion / Street Style",
+      "city": "Москва",
+      "date": "2026-06-22",
+      "url": "https://www.buro247.ru/fashion/street-style/moscow-summer-2026",
+      "tags": ["street style", "Москва", "лето"]
+    },
+    {
+      "id": "artguide-004",
+      "title": "Групповая выставка «Новые горизонты» в галерее «Гараж»",
+      "description": "Музей «Гараж» открывает групповую выставку «Новые горизонты» с работами 20 российских и международных художников.",
+      "source": "Артгид",
+      "category": "Art / Exhibition",
+      "city": "Москва",
+      "date": "2026-06-20",
+      "url": "https://artguide.com/news/garage-new-horizons-exhibition",
+      "tags": ["Гараж", "групповая выставка", "современное искусство"]
+    }
+  ]
+}

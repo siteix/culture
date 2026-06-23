@@ -1,0 +1,240 @@
+{
+  "section": "world",
+  "title": "Мировые новости моды, фэшна и искусства",
+  "description": "Ежедневная лента из международных источников про fashion, арт, дизайн, архитектуру, технологии и креативные индустрии.",
+  "updatedAt": "2026-06-22T10:00:00+00:00",
+  "sources": [
+    {
+      "name": "Vogue Business",
+      "url": "https://www.vogue.com/business/fashion",
+      "category": "Fashion Business"
+    },
+    {
+      "name": "Dezeen",
+      "url": "https://www.dezeen.com",
+      "category": "Design / Architecture"
+    },
+    {
+      "name": "designboom",
+      "url": "https://www.designboom.com",
+      "category": "Design / Art / Technology"
+    },
+    {
+      "name": "Business of Fashion",
+      "url": "https://www.businessoffashion.com",
+      "category": "Fashion Industry"
+    },
+    {
+      "name": "The Art Newspaper",
+      "url": "https://www.theartnewspaper.com",
+      "category": "Art / Culture"
+    },
+    {
+      "name": "Wallpaper*",
+      "url": "https://www.wallpaper.com",
+      "category": "Design / Lifestyle"
+    }
+  ],
+  "items": [
+    {
+      "id": "vogue-001",
+      "title": "Chanel назначила нового креативного директора haute couture",
+      "description": "Французский дом моды Chanel объявил о назначении нового креативного директора линии haute couture. Имя дизайнера будет объявлено на следующей неделе перед показом на неделе haute couture в Париже.",
+      "source": "Vogue Business",
+      "category": "Fashion / Luxury",
+      "date": "2026-06-21",
+      "url": "https://www.vogue.com/article/chanel-appoints-new-creative-director",
+      "tags": ["Chanel", "haute couture", "назначение"]
+    },
+    {
+      "id": "vogue-002",
+      "title": "Искусственный интеллект в fashion: как AI меняет процесс создания коллекций",
+      "description": "Исследование Vogue Business показало, что 67% крупных fashion-брендов уже используют ИИ для предсказания трендов, генерации принтов и оптимизации цепочек поставок.",
+      "source": "Vogue Business",
+      "category": "Fashion / Technology",
+      "date": "2026-06-20",
+      "url": "https://www.vogue.com/article/ai-in-fashion-design-process",
+      "tags": ["AI", "технологии", "тренды"]
+    },
+    {
+      "id": "vogue-003",
+      "title": "Устойчивая мода: LVMH запускает глобальную программу переработки текстиля",
+      "description": "Консорциум LVMH анонсировал масштабную программу переработки текстиля, охватывающую 12 стран. К 2028 году планируется перерабатывать 40% отходов производства.",
+      "source": "Vogue Business",
+      "category": "Fashion / Sustainability",
+      "date": "2026-06-19",
+      "url": "https://www.vogue.com/article/lvmh-textile-recycling-program",
+      "tags": ["LVMH", "переработка", "устойчивость"]
+    },
+    {
+      "id": "dezeen-001",
+      "title": "Токийский дизайнер представил мебель из грибного мицелия",
+      "description": "Японский дизайнер Кадзума Кобаяши создал коллекцию мебели из биоматериалов на основе грибного мицелия. Коллекция была представлена на Milan Design Week 2026.",
+      "source": "Dezeen",
+      "category": "Design / Sustainability",
+      "date": "2026-06-21",
+      "url": "https://www.dezeen.com/2026/06/21/mushroom-mycelium-furniture-tokyo-designer/",
+      "tags": ["мицелий", "биоматериалы", "Милан"]
+    },
+    {
+      "id": "dezeen-002",
+      "title": "Architects完成новый музей современного искусства в Осло",
+      "description": "Норвежская студия Snøhetta завершила строительство Музея современного искусства в Осло. Здание площадью 15 000 м² отличается уникальной façade из переработанного алюминия.",
+      "source": "Dezeen",
+      "category": "Architecture / Museum",
+      "date": "2026-06-20",
+      "url": "https://www.dezeen.com/2026/06/20/snohetta-oslo-museum-modern-art/",
+      "tags": ["музей", "Осло", "Snøhetta"]
+    },
+    {
+      "id": "dezeen-003",
+      "title": "Вертикальные сады: новый тренд в архитектуре жилых комплексов",
+      "description": "Архитектурные студии по всему миру активно внедряют вертикальные сады в проекты жилых комплексов. В Лондоне, Сингапуре и Дубае запущены крупнейшие проекты.",
+      "source": "Dezeen",
+      "category": "Architecture / Green Design",
+      "date": "2026-06-18",
+      "url": "https://www.dezeen.com/2026/06/18/vertical-gardens-residential-architecture-trend/",
+      "tags": ["вертикальные сады", "зеленая архитектура", "жилые комплексы"]
+    },
+    {
+      "id": "designboom-001",
+      "title": "Светящиеся скульптуры из переработанного стекла на фестивале света в Лионе",
+      "description": "Французский художник Жан-Мишель Отоньель создал серию светящихся скульптур из переработанного стекла для фестивала Fête des Lumières в Лионе.",
+      "source": "designboom",
+      "category": "Art / Installation",
+      "date": "2026-06-21",
+      "url": "https://www.designboom.com/art/recycled-glass-light-sculptures-lyon-festival/",
+      "tags": ["световые скульптуры", "переработанное стекло", "Лион"]
+    },
+    {
+      "id": "designboom-002",
+      "title": "Новый концепт электрического суперкара от Pininfarina",
+      "description": "Итальянское ателье Pininfarina представило концепт электрического суперкара с кузовом из углеродного волокна и интерьером из растительных материалов.",
+      "source": "designboom",
+      "category": "Design / Automotive",
+      "date": "2026-06-19",
+      "url": "https://www.designboom.com/design/pininfarina-electric-supercar-concept/",
+      "tags": ["Pininfarina", "электрокар", "концепт"]
+    },
+    {
+      "id": "designboom-003",
+      "title": "Интерактивная инсталляция реагирует на эмоции зрителей",
+      "description": "Группа Media Design Hat創造了一个 интерактивную инсталляцию на выставке Ars Electronica, которая анализирует эмоции зрителей через камеры и меняет цвет и звук.",
+      "source": "designboom",
+      "category": "Art / Technology",
+      "date": "2026-06-17",
+      "url": "https://www.designboom.com/art/emotion-reactive-interactive-installation-ars-electronica/",
+      "tags": ["интерактивное искусство", "Ars Electronica", "эмоции"]
+    },
+    {
+      "id": "bof-001",
+      "title": "Global Fashion Summit: обсуждение будущего индустрии в Копенгагене",
+      "description": "Ежегодный Global Fashion Summit прошел в Копенгагене с участием CEO крупнейших брендов. Ключевые темы: декарбонизация, цифровые паспорта продукции и этичное производство.",
+      "source": "Business of Fashion",
+      "category": "Fashion / Industry",
+      "date": "2026-06-18",
+      "url": "https://www.businessoffashion.com/articles/sustainability/global-fashion-summit-2026-copenhagen/",
+      "tags": ["саммит", "Копенгаген", "устойчивость"]
+    },
+    {
+      "id": "bof-002",
+      "title": "Премия LVMH Prize 2026: финалисты объявлены",
+      "description": "Объявлены 8 финалистов премии LVMH Prize для молодых дизайнеров. Среди них представители Японии, Нигерии, Колумбии и Бразилии.",
+      "source": "Business of Fashion",
+      "category": "Fashion / Awards",
+      "date": "2026-06-15",
+      "url": "https://www.businessoffashion.com/articles/lvmh-prize-2026-finalists/",
+      "tags": ["LVMH Prize", "молодые дизайнеры", "премия"]
+    },
+    {
+      "id": "bof-003",
+      "title": "Партфолио-компании модных стартапов привлекли $2 млрд инвестиций",
+      "description": "Аналитики BoF сообщают о рекордных инвестициях в модные стартапы за первый квартал 2026 года. Лидируют компании в сегменте устойчивой моды и DTC-брендов.",
+      "source": "Business of Fashion",
+      "category": "Fashion / Business",
+      "date": "2026-06-12",
+      "url": "https://www.businessoffashion.com/articles/fashion-startups-2-billion-investment-q1-2026/",
+      "tags": ["инвестиции", "стартапы", "DTC"]
+    },
+    {
+      "id": "artnewspaper-001",
+      "title": "Рекордные продажи на аукционе Contemporary Art Evening Sale в Christie's",
+      "description": "Вечерний аукцион Christie's Contemporary Art Evening Sale собрал $420 млн — это лучший результат за последние 5 лет. Лидер продаж — работа Жана-Мишеля Баския за $78 млн.",
+      "source": "The Art Newspaper",
+      "category": "Art / Auction",
+      "date": "2026-06-20",
+      "url": "https://www.theartnewspaper.com/2026/06/20/christies-contemporary-art-evening-sale-record",
+      "tags": ["аукцион", "Christie's", "Баския"]
+    },
+    {
+      "id": "artnewspaper-002",
+      "title": "Биеннале в Венеции: Pavillon России закрыт, но российские художники представлены в павильонах других стран",
+      "description": "Несмотря на закрытие российского павильона, 12 российских художников представлены в национальных павильонах других стран на 63-й Венецианской биеннале.",
+      "source": "The Art Newspaper",
+      "category": "Art / Biennale",
+      "date": "2026-06-18",
+      "url": "https://www.theartnewspaper.com/2026/06/18/venice-biennale-russian-artists-other-pavilions",
+      "tags": ["биеннале", "Венеция", "Россия"]
+    },
+    {
+      "id": "artnewspaper-003",
+      "title": "Музей Гуггенхайма открывает филиал в Саудовской Аравии",
+      "description": "Музей Гуггенхайма объявил об открытии филиала в Эр-Рияде. Здание спроектировано архитектурным бюро Zaha Hadid Architects.",
+      "source": "The Art Newspaper",
+      "category": "Art / Museum",
+      "date": "2026-06-14",
+      "url": "https://www.theartnewspaper.com/2026/06/14/guggenheim-saudi-arabia-branch-riyadh",
+      "tags": ["Гуггенхайм", "Саудовская Аравия", "музей"]
+    },
+    {
+      "id": "wallpaper-001",
+      "title": "Milan Design Week 2026: главные тренды и инсталляции",
+      "description": "Обзор ключевых трендов Milan Design Week 2026: биоматериалы, модульная мебель, интеграция ИИ и возвращение кRAFTSMANSHIP.",
+      "source": "Wallpaper*",
+      "category": "Design / Trends",
+      "date": "2026-06-16",
+      "url": "https://www.wallpaper.com/design/milan-design-week-2026-key-trends",
+      "tags": ["Милан", "дизайн-неделя", "тренды"]
+    },
+    {
+      "id": "wallpaper-002",
+      "title": "Новый отель Aman в Киото: архитектурный шедевр из дерева и камня",
+      "description": "Aman открыл новый отель в Киото, спроектированный Kerry Hill Architects. Здание интегрировано в исторический район Хигасияма.",
+      "source": "Wallpaper*",
+      "category": "Architecture / Hospitality",
+      "date": "2026-06-13",
+      "url": "https://www.wallpaper.com/travel/aman-kyoto-new-hotel-kerry-hill",
+      "tags": ["Aman", "Киото", "отель"]
+    },
+    {
+      "id": "wallpaper-003",
+      "title": "Интерьер года: лучшие проекты по версии Wallpaper Design Awards",
+      "description": "Объявлены победители Wallpaper Design Awards 2026 в категории «Интерьер года». Среди победителей проекты из Копенгагена, Токио и Нью-Йорка.",
+      "source": "Wallpaper*",
+      "category": "Design / Awards",
+      "date": "2026-06-10",
+      "url": "https://www.wallpaper.com/design/wallpaper-design-awards-2026-interior-of-the-year",
+      "tags": ["премия", "интерьер", "Wallpaper"]
+    },
+    {
+      "id": "vogue-004",
+      "title": "Каннский фестиваль 2026: мода на красной дорожке",
+      "description": "Обзор самых ярких fashion-образов с красной дорожки Каннского фестиваля 2026. В этом году доминируют haute couture от Valentino, Dior и Schiaparelli.",
+      "source": "Vogue Business",
+      "category": "Fashion / Events",
+      "date": "2026-06-08",
+      "url": "https://www.vogue.com/article/cannes-2026-red-carpet-fashion",
+      "tags": ["Канны", "красная дорожка", "couture"]
+    },
+    {
+      "id": "dezeen-004",
+      "title": "Павильон из переработанного пластика на Венецианской архитектурной биеннале",
+      "description": "Студия Elemental Алехандро Арavena представила павильон из переработанного пластика на Венецианской архитектурной биеннале 2026.",
+      "source": "Dezeen",
+      "category": "Architecture / Biennale",
+      "date": "2026-06-15",
+      "url": "https://www.dezeen.com/2026/06/15/elemental-recycled-plastic-pavilion-venice-architecture-biennale/",
+      "tags": ["биеннале", "переработанный пластик", "Арavena"]
+    }
+  ]
+}
