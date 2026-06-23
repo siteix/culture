@@ -521,7 +521,7 @@ legend,
 
 .segmented {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
@@ -606,11 +606,29 @@ legend,
 }
 
 .form-message.success {
-  color: #1f6b3a;
+  padding: 14px 16px;
+  border: 1px solid #b8dfc3;
+  background: #effaf2;
+  color: #17612d;
+  font-weight: 700;
 }
 
 .form-message.error {
   color: #9d2929;
+}
+
+#scheduled-section input[name="time"],
+#scheduled-section input[type="time"],
+#scheduled-section label:has(input[name="time"]),
+#scheduled-section label:has(input[type="time"]) {
+  display: none !important;
+}
+
+html[data-route="scheduled"] #content-toolbar,
+body[data-route="scheduled"] #content-toolbar,
+html[data-route="scheduled"] .toolbar,
+body[data-route="scheduled"] .toolbar {
+  display: none !important;
 }
 
 .subscription-copy {

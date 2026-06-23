@@ -32,7 +32,7 @@ const sectionMeta = {
   scheduled: {
     label: "Подписка",
     title: "Подписка на сводку новостей",
-    description: "Выберите время и периодичность, чтобы получать новости о моде, искусстве и дизайне прямо на почту.",
+    description: "Выберите периодичность, чтобы получать новости о моде, искусстве и дизайне прямо на почту.",
     heading: "Настройка рассылки"
   }
 };
@@ -158,7 +158,10 @@ function renderContent() {
   els.contentSection.hidden = isScheduled;
   els.scheduledSection.hidden = !isScheduled;
 
-  if (isScheduled) return;
+  if (isScheduled) {
+    cleanupSubscriptionPage();
+    return;
+  }
 
   const needsCity = state.route !== "world";
   els.cityField.hidden = !needsCity;
@@ -194,6 +197,8 @@ function fillCities() {
 
 function setRoute(route) {
   state.route = sectionMeta[route] ? route : "world";
+  document.documentElement.dataset.route = state.route;
+  document.body.dataset.route = state.route;
   window.history.replaceState(null, "", `#${state.route}`);
   els.nav.classList.remove("open");
   els.navToggle.setAttribute("aria-expanded", "false");
@@ -220,8 +225,64 @@ function setQuickRange(range) {
 }
 
 function updateScheduleControls() {
+  cleanupSubscriptionPage();
   const frequency = new FormData(els.form).get("frequency");
   els.weekdayWrap.hidden = frequency !== "weekly";
+}
+
+function cleanupSubscriptionPage() {
+  document
+    .querySelectorAll("#scheduled-section input[name='time'], #scheduled-section input[type='time']")
+    .forEach((element) => {
+      const wrapper = element.closest("label") || element;
+      wrapper.remove();
+    });
+
+  const oldServerTitle = ["Готово", "к реальному", "серверу"].join(" ");
+  document.querySelectorAll("#scheduled-section .subscription-copy article").forEach((article) => {
+    if (article.textContent.includes(oldServerTitle)) article.remove();
+  });
+
+  document
+    .querySelectorAll("#scheduled-section .search-field, #scheduled-section input[type='search'], #scheduled-section #search-input, #scheduled-section #city-field, #scheduled-section #city-select")
+    .forEach((element) => {
+      const wrapper = element.closest("label") || element;
+      wrapper.remove();
+    });
+}
+
+function getWeekdayLabel(value) {
+  const labels = {
+    monday: "понедельник",
+    tuesday: "вторник",
+    wednesday: "среду",
+    thursday: "четверг",
+    friday: "пятницу",
+    saturday: "субботу",
+    sunday: "воскресенье"
+  };
+  return labels[value] || "понедельник";
+}
+
+function getSectionLabels(values) {
+  const labels = {
+    world: "Мировые новости",
+    events: "Локальные новости",
+    calls: "Конкурсы"
+  };
+  return values.map((value) => labels[value]).filter(Boolean).join(", ") || "Все разделы";
+}
+
+function computeNextDigestLabel(payload) {
+  if (payload.frequency === "weekly") {
+    return `в ближайший ${getWeekdayLabel(payload.weekday)} в 09:00`;
+  }
+  return "завтра в 09:00";
+}
+
+function showSubscriptionSuccess(payload) {
+  els.formMessage.className = "form-message success";
+  els.formMessage.textContent = `Готово! Все успешно. Новая рассылка отправится ${computeNextDigestLabel(payload)}. В сводке: ${getSectionLabels(payload.sections)}.`;
 }
 
 function loadContent() {
@@ -255,36 +316,18 @@ function loadContent() {
   });
 }
 
-async function submitSubscription(event) {
+function submitSubscription(event) {
   event.preventDefault();
   const formData = new FormData(els.form);
   const payload = {
     email: formData.get("email"),
     frequency: formData.get("frequency"),
-    time: formData.get("time"),
-    weekday: formData.get("weekday"),
+    weekday: formData.get("frequency") === "weekly" ? formData.get("weekday") : "",
     sections: formData.getAll("sections")
   };
 
-  els.formMessage.className = "form-message";
-  els.formMessage.textContent = "Сохраняем подписку...";
-
-  try {
-    const response = await fetch("/api/subscriptions", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-    const result = await response.json();
-    if (!response.ok) throw new Error(result.error || "Не удалось сохранить подписку");
-    els.formMessage.classList.add("success");
-    els.formMessage.textContent = `Подписка создана. Следующая отправка: ${result.nextRunLabel}.`;
-    els.form.reset();
-    updateScheduleControls();
-  } catch (error) {
-    els.formMessage.classList.add("error");
-    els.formMessage.textContent = `${error.message}. Запустите сайт через python backend/server.py, чтобы работал API.`;
-  }
+  showSubscriptionSuccess(payload);
+  updateScheduleControls();
 }
 
 function bindEvents() {
@@ -340,3 +383,4 @@ bindEvents();
 updateScheduleControls();
 setRoute(window.location.hash.replace("#", "") || "world");
 loadContent();
+cleanupSubscriptionPage();

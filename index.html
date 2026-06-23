@@ -8,7 +8,10 @@
       name="description"
       content="Культурная лента: поиск мировых новостей, локальных новостей и конкурсов в моде, искусстве и дизайне."
     >
-    <link rel="stylesheet" href="assets/styles.css">
+    <script>
+      document.documentElement.dataset.route = (window.location.hash || "#world").slice(1) || "world";
+    </script>
+    <link rel="stylesheet" href="assets/styles.css?v=20260623-4">
   </head>
   <body>
     <header class="site-header">
@@ -102,10 +105,6 @@
             </fieldset>
 
             <div class="form-row">
-              <label>
-                <span>Время отправки</span>
-                <input name="time" type="time" value="09:00" required>
-              </label>
               <label id="weekday-wrap">
                 <span>День недели</span>
                 <select name="weekday">
@@ -147,13 +146,6 @@
                 Ежедневно к утреннему кофе или раз в неделю по выбранному дню.
               </p>
             </article>
-            <article>
-              <h2>Готово к реальному серверу</h2>
-              <p>
-                Форма отправляет данные через интерфейс, сохраняет подписку и передает настройки в
-                модуль расписания, куда можно подключить почтовую рассылку, очереди и парсеры источников.
-              </p>
-            </article>
           </aside>
         </div>
       </section>
@@ -161,9 +153,9 @@
 
     <footer class="footer">
       <span>Культурная лента</span>
-      <span>Мода · искусство · дизайн · ИИ</span>
+      <span>Мода · искусство · дизайн</span>
     </footer>
 
-    <script src="assets/app.js" defer></script>
+    <script src="assets/app.js?v=20260623-4" defer></script>
   </body>
 </html>
